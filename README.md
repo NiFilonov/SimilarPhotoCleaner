@@ -13,3 +13,5 @@
 pod install
 swiftgen
 ```
+
+Если при сборке проекта будет появляться ошибка связанная с SnapKit-Dynamic, нужно открыть настройки target'а (в корневом файле проекта) и в разделе "Frameworks, Libraries and Embedded Content" удалить SnapKit-Dynamic.
