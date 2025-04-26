@@ -1,0 +1,54 @@
+/* 
+  Localizable.strings
+  SimilarPhotoCleaner
+
+  Created by Nikita Filonov on 13.04.2025.
+  
+*/
+
+// MARK: - Main
+
+"main.header.title" = "Similar";
+
+"main.header.description" = "%@ photos • %@ selected";
+
+"main.cell.title" = "%@ Similar";
+
+"main.cell.action-title.select-all" = "Select all";
+
+"main.cell.action-title.deselect-all" = "Deselect all";
+
+"main.action.title" = "Delete %@ similars";
+
+
+// MARK: - Permission Provider
+
+"permission-provider.alert.title" = "Need permission";
+
+"permission-provider.alert.message" = "Go to settings and allow access to photos";
+
+"permission-provider.alert.action" = "Open settings";
+
+
+// MARK: - Completion
+
+"completion.title" = "Congratulations!";
+
+"completion.info.size" = "You have deleted \n%@ Photos (%@ MB)";
+
+"completion.info.size-selection" = "%@ Photos";
+
+"completion.info.time" = "Saved %@ Minutes \nusing Cleanup";
+
+"completion.info.time-selection" = "%@ Minutes";
+
+"completion.description" = "Review all your videos. Sort the by size or date. See the ones that occupy the most space.";
+
+"completion.button" = "Great";
+
+
+// MARK: - Alert
+
+"alert.ok" = "OK";
+
+"alert.cancel" = "Cancel";

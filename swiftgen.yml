@@ -1,0 +1,26 @@
+strings:
+  inputs: SimilarPhotoCleaner/UI/Resources/Localizable.strings
+  outputs:
+    templateName: structured-swift5
+    params:
+      publicAccess: true
+      enumName: Strings
+    output: SimilarPhotoCleaner/UI/Generated/Strings.swift
+xcassets:
+  inputs:
+    - SimilarPhotoCleaner/UI/Resources/Images.xcassets
+    - SimilarPhotoCleaner/UI/Resources/Icons.xcassets
+    - SimilarPhotoCleaner/UI/Resources/Colors.xcassets
+  outputs:
+    templateName: swift5
+    params:
+      publicAccess: true
+      enumName: Assets
+    output: SimilarPhotoCleaner/UI/Generated/Assets.swift
+plist:
+  inputs: SimilarPhotoCleaner/UI/Resources/Info.plist
+  outputs:
+    templateName: runtime-swift5
+    params:
+      publicAccess: true
+    output: SimilarPhotoCleaner/UI/Generated/Plist.swift
