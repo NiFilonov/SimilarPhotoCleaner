@@ -55,8 +55,6 @@
 		4F87DB202DA140D800AEA003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87DB1F2DA140D800AEA003 /* AppDelegate.swift */; };
 		4F87DB292DA140DC00AEA003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F87DB282DA140DC00AEA003 /* Assets.xcassets */; };
 		4F87DB2C2DA140DC00AEA003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F87DB2A2DA140DC00AEA003 /* LaunchScreen.storyboard */; };
-		4F87DB402DA7D15900AEA003 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F87DB3F2DA7D15900AEA003 /* SnapKit */; };
-		4F87DB422DA7D15900AEA003 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4F87DB412DA7D15900AEA003 /* SnapKit-Dynamic */; };
 		4F87DB462DA7D1DF00AEA003 /* Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87DB452DA7D1DF00AEA003 /* Dimensions.swift */; };
 		4F87DB492DA7D23C00AEA003 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87DB482DA7D23C00AEA003 /* HeaderView.swift */; };
 		4F87DB4B2DA7D2B300AEA003 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87DB4A2DA7D2B300AEA003 /* CustomView.swift */; };
@@ -72,6 +70,7 @@
 		4FBA34142DBD4018005C4A19 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA34132DBD4018005C4A19 /* Coordinatable.swift */; };
 		4FBA34162DBD404D005C4A19 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA34152DBD404D005C4A19 /* Button.swift */; };
 		4FBA34182DBD408E005C4A19 /* AlertConfig+PermissionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA34172DBD408E005C4A19 /* AlertConfig+PermissionProvider.swift */; };
+		4FBA341B2DBD47CA005C4A19 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4FBA341A2DBD47CA005C4A19 /* SnapKit */; };
 		C9A3A93039D611570E18605B /* Pods_SimilarPhotoCleaner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220C197B783227C4D9F83E95 /* Pods_SimilarPhotoCleaner.framework */; };
 /* End PBXBuildFile section */
 
@@ -149,11 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F8636A42DABF4C500DF0582 /* Dip in Frameworks */,
-				4F87DB402DA7D15900AEA003 /* SnapKit in Frameworks */,
-				4F87DB422DA7D15900AEA003 /* SnapKit-Dynamic in Frameworks */,
 				C9A3A93039D611570E18605B /* Pods_SimilarPhotoCleaner.framework in Frameworks */,
 				4F8636972DABE1D400DF0582 /* DifferenceKit in Frameworks */,
 				4F86368E2DABE02700DF0582 /* Reusable in Frameworks */,
+				4FBA341B2DBD47CA005C4A19 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,11 +535,10 @@
 			);
 			name = SimilarPhotoCleaner;
 			packageProductDependencies = (
-				4F87DB3F2DA7D15900AEA003 /* SnapKit */,
-				4F87DB412DA7D15900AEA003 /* SnapKit-Dynamic */,
 				4F86368D2DABE02700DF0582 /* Reusable */,
 				4F8636962DABE1D400DF0582 /* DifferenceKit */,
 				4F8636A32DABF4C500DF0582 /* Dip */,
+				4FBA341A2DBD47CA005C4A19 /* SnapKit */,
 			);
 			productName = SimilarPhotoCleaner;
 			productReference = 4F87DB1C2DA140D800AEA003 /* SimilarPhotoCleaner.app */;
@@ -572,10 +569,10 @@
 			);
 			mainGroup = 4F87DB132DA140D800AEA003;
 			packageReferences = (
-				4F87DB3E2DA7D15900AEA003 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				4F86368C2DABE02700DF0582 /* XCRemoteSwiftPackageReference "Reusable" */,
 				4F8636952DABE1D400DF0582 /* XCRemoteSwiftPackageReference "DifferenceKit" */,
 				4F8636A22DABF4C500DF0582 /* XCRemoteSwiftPackageReference "Dip" */,
+				4FBA34192DBD47CA005C4A19 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 4F87DB1D2DA140D800AEA003 /* Products */;
 			projectDirPath = "";
@@ -932,7 +929,7 @@
 				minimumVersion = 7.1.1;
 			};
 		};
-		4F87DB3E2DA7D15900AEA003 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		4FBA34192DBD47CA005C4A19 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
@@ -958,15 +955,10 @@
 			package = 4F8636A22DABF4C500DF0582 /* XCRemoteSwiftPackageReference "Dip" */;
 			productName = Dip;
 		};
-		4F87DB3F2DA7D15900AEA003 /* SnapKit */ = {
+		4FBA341A2DBD47CA005C4A19 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4F87DB3E2DA7D15900AEA003 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 4FBA34192DBD47CA005C4A19 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		4F87DB412DA7D15900AEA003 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4F87DB3E2DA7D15900AEA003 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
